@@ -13,6 +13,7 @@ I decided to code this website, as opposed to using a website builder, to sharpe
 - I'm struggling to properly format the pic of UW on my home page. It keeps running off the right side of the page. I think the image width is bigger than the width of the page
     - I've tried reducing the width
         - This resulted in the picture fitting on the page, but not taking up the width of the page
+    - I solved this problem by setting the picture's max-width to 100%
 
 # Takeaways
 

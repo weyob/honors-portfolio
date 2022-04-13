@@ -2,42 +2,24 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-section, html {
+body, html {
   height: 100%;
 }
 
-.bg {
-  /* The image used */
-  background-image: url("../img/uw-quad.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-  position: relative;
+/* Set header image to adjust to and fill screen width */
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-section > img {
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-height: 100%;
-  min-width: 100%;
-  transform: translate(-50%, -50%);
-}
-
+/* Style content in footer */
 footer {
     background-color: #bfd8c4;
     display: flex;
     justify-content: space-around;
 }
 
-/* Add a black background color to the top navigation */
+/* Add a light green background color to the top navigation */
 .topnav {
     background-color: #bfd8c4;
     overflow: hidden;
@@ -53,7 +35,7 @@ footer {
     font-size: 17px;
   }
   
-  /* Change the color of links on hover */
+  /* Change the color of links on hover to light gray */
   .topnav a:hover {
     background-color: lightgray;
     color: black;
