@@ -1,4 +1,5 @@
-.row, .video, .text {
+/* center content on 'Year' pages */
+.row, .video, .playlist, .text {
   max-width: 500px;
   margin: auto;
   background: white;
@@ -48,8 +49,10 @@ footer {
   color: black;
 }
 
-/* Make image grids responsive */
 
+/* PHOTO GRID */
+
+/* Make image grids responsive */
 .row {
   display: flex;
   flex-wrap: wrap;
