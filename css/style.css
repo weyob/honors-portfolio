@@ -153,4 +153,9 @@ section ul li.active{
     max-height: 650px;
     max-width: auto;
   }
+
+  .honorstranscript {
+    max-width: 50%;
+    max-height: auto;
+  }
 }
